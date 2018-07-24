@@ -4,9 +4,10 @@ require 'pry'
 class Student < User
   # attr_accessor :knowledge
   
+  binding.pry
   def new()
      @knowledge = []
-     binding.pry
+    # binding.pry
   end
 
   def learn(string)
