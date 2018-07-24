@@ -1,7 +1,7 @@
 require_relative "./user.rb"
 
 class Student < User
-
+  attr_accessor :knowledge
   def new()
      @knowledge = []
   end
@@ -10,8 +10,8 @@ class Student < User
     @knowledge << string
   end
   
-  def knowledge()
-    @knowledge
-  end
+  # def knowledge()
+  #   @knowledge
+  # end
 
 end
