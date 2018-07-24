@@ -4,8 +4,7 @@ require 'pry'
 class Student < User
   # attr_accessor :knowledge
   
-  binding.pry
-  def new()
+  def initialize()
      @knowledge = []
     # binding.pry
   end
